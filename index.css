@@ -188,4 +188,44 @@ color: white;
 font-size: 2rem;
 line-height: 3rem;
 }
+
+.educational-background{
+
+}
+.educational-background h3{
+    color: rgb(74, 52, 9);
+    font-size: 3rem;
+}
+.educational-background ul{
+list-style: none;
+}
+.educational-background ul li{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: auto;
+gap: 2rem;
+}
+.educational-background ul li img{
+color: white;
+width: 3rem;
+height: 3rem;
+}
+
+.interests h3{
+    color: rgb(74, 52, 9);
+    font-size: 3rem;
+}
+.interests ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: auto;
+    gap: 2rem;
+    }
+    .interests ul li img{
+        color: white;
+        width: 3rem;
+        height: 3rem;
+        }
 /* End of about section */
