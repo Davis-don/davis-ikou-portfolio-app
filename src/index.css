@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+font-size: 62.5%;
+}
+body{
+font-size: 1.6rem;
+}
+.overall-container{
+
+}
+/* Start of header container */
+.header-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+background-color: black;
+gap: 4rem;
+padding-inline: 3rem;
+padding-block: 2rem;
+justify-content: space-evenly;
+}
+@media screen and (max-width:21.875em) {
+    .header-container{
+        justify-content: center;
+       gap: 0px;
+       padding-inline: 0px;
+    } 
+}
+.left-side-header-container{
+}
+.left-side-header-container h1{
+color: white;
+} 
+.right-side-header-container ul{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+list-style: none;
+}
+@media screen and (min-width:40.625em) {
+    .menu-icon-display{
+        display: none;
+            }
+}
+@media screen and (max-width:40.625em) {
+    .right-side-header-container ul{
+        display: none;
+    }  
+    
+}
+.right-side-header-container ul li{
+color: white;
+font-size: 2rem;
+}
+.menu-icon-display{
+width: 3rem;
+height: 3rem;
+}
+.menu-icon-display img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+/* END OF HEADER COMTAINER */
+/* Start of hero section */
+.hero-section-container{
+height: 85vh;
+background-color: rgb(1, 12, 24);
+display: flex;
+flex-direction: row;
+color: white;
+justify-content: space-between;
+align-items: center;
+padding-inline: 5rem;
+gap: 8rem;
+}
+@media screen and (max-width:75em) {
+    .hero-section-container{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        padding-block: 2rem;
+        gap: 3rem;
+    }  
+}
+@media screen and (max-width:18.75em) {
+    .hero-section-container{
+        padding-inline: 1rem;
+    }  
+}
+.left-side-hero-section{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+
+}
+.left-side-hero-section h1{
+font-size: 10rem;
+}
+@media screen and (max-width:38.75em) {
+    .left-side-hero-section h1{
+        font-size: 5rem;
+        }
+}
+@media screen and (max-width:18.75em) {
+    .left-side-hero-section h1{
+        font-size: 3rem;
+    }
+}
+.left-side-hero-section p{
+font-size: 2rem;
+line-height: 3rem;
+}
+.image-container-right-side{
+height: 40rem;
+width: 40rem;
+background-color: white;
+}
+@media screen and (max-width:25em) {
+    .image-container-right-side{
+        height: 30rem;
+        width: 100vw;
+    }  
+}
+
+@media screen and (min-width:75em) {
+    .right-side-hero-section-small{
+    display: none;
+    }
+}
+@media screen and (max-width:75em) {
+    .right-side-hero-section{
+    display: none;
+    }
+}
+.image-container-right-side img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+
+/* End of hero section */
