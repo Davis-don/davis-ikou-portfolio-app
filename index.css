@@ -282,6 +282,7 @@ width: 3rem;
 height: 3rem;
 }
 
+
 .interests h3{
     color: #ff7e5f;
     font-size: 2rem;
@@ -298,6 +299,19 @@ height: 3rem;
         width: 3rem;
         height: 3rem;
         }
+
+        .button-container{
+            width: max-content;
+            margin: auto;
+            }
+            .download-resumme-button{
+            margin: auto;
+            background-color: #ff7e5f;
+            padding-block: 1rem;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            padding-inline: 2rem;
+            }
 /* End of about section */
 
 /* Start of my skills section */
