@@ -450,6 +450,7 @@ gap: 2rem;
 width: 4rem;
 height: 4rem;
 border-radius: 50%;
+cursor: pointer;
 }
 @media screen and (max-width:20em) {
     .social-link-card{
