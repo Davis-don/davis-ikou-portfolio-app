@@ -78,7 +78,38 @@ object-fit: cover;
 }
 /* END OF HEADER COMTAINER */
 
+/* Start of sidebar-css */
+.side-bar-container{
+position: fixed;
+z-index: +3;
+background-color: black;
+opacity: .7;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin-top: 7rem;
+padding-block:2rem;
 
+overflow: hidden; /* Ensures content doesn't overflow while resizing */
+    transition: height 0.3s ease-in-out, visibility 0.3s linear; /* Smooth height transition */
+    height: 0px; /* Initial height */
+}
+.side-bar-container ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+gap: 2rem;
+}
+.side-bar-container ul li{
+border-bottom: 1px solid black;
+}
+.side-bar-container ul li a{
+font-size:2rem;
+text-decoration: none;
+}
+/* End of side bar css */
 .content-section{
     position: absolute;
     z-index: +1;
@@ -419,7 +450,7 @@ width: 30rem;
 height: max-content;
 padding: 2rem;
 }
-@media screen and (max-width:19.375em) {
+@media screen and (max-width:30em) {
     .form-contact-container{
         width: 100%;
     }   
