@@ -156,7 +156,6 @@ display: grid;
 grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
 height: max-content;
 gap: 2rem;
-
 }
 @media screen and (max-width:25em) {
     .overall-about-section{
@@ -180,9 +179,19 @@ flex-direction: column;
 padding-inline: 2rem;
 gap: 2rem;
 }
-.right-side-about-section h1{
-color: white;
+.right-side-about-section h1 {
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds depth and a subtle glow effect */
+    font-weight: bold;
+    font-size: 2.5rem; /* Makes the text prominent */
+    letter-spacing: 1.5px; /* Creates a refined look with subtle spacing */
+    padding: 15px; /* Ensures visual balance and spacing around the text */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient for a distinct vibe */
+    -webkit-background-clip: text; /* Clips background to the text for Chrome and Safari */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent for gradient visibility */
 }
+
 .right-side-about-section p{
 color: white;
 font-size: 2rem;
@@ -229,3 +238,69 @@ height: 3rem;
         height: 3rem;
         }
 /* End of about section */
+
+/* Start of my skills section */
+
+.my-skills-section{
+height: max-content;
+background-color: black;
+padding-block: 2rem;
+}
+.my-skills-section h1 {
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds depth and a subtle glow effect */
+    font-weight: bold;
+    font-size: 2.5rem; /* Makes the text prominent */
+    letter-spacing: 1.5px; /* Creates a refined look with subtle spacing */
+    padding: 15px; /* Ensures visual balance and spacing around the text */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient for a distinct vibe */
+    -webkit-background-clip: text; /* Clips background to the text for Chrome and Safari */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent for gradient visibility */
+    text-align: center;
+}
+
+
+.skills-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(40rem,1fr));
+gap: 2rem;
+padding-inline: 3rem;
+}
+
+@media screen  and (max-width:27.5em){
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+.overall-skill-card{
+
+}
+.text-card-container-skill{
+
+}
+.text-card-container-skill ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 2rem;
+
+}
+.text-card-container-skill ul li{
+color: white;
+}
+.card-graphic-skill{
+height: .5rem;
+border-radius: 2rem;
+background-color: white;
+}
+.colored-graphic-display{
+height: 100%;
+
+background-color: orangered;
+border-radius: 2rem;
+}
+/* End of my skills section */
