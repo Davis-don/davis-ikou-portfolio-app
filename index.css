@@ -379,8 +379,63 @@ background-color: #ff7e5f;
 border-radius: 2rem;
 }
 /* End of my skills section */
+/* Start of my projects-section */
+.projects-overall-container{
+height: max-content;
+margin-top: 3rem;
+}
+.projects-overall-container h1{
+    color: white;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds depth and a subtle glow effect */
+    font-weight: bold;
+    font-size: 2.5rem; /* Makes the text prominent */
+    letter-spacing: 1.5px; /* Creates a refined look with subtle spacing */
+    padding: 15px; /* Ensures visual balance and spacing around the text */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient for a distinct vibe */
+    -webkit-background-clip: text; /* Clips background to the text for Chrome and Safari */
+    background-clip: text; /* Standard property for modern browsers */
+    -webkit-text-fill-color: transparent; /* Makes the text transparent for gradient visibility */
+    text-align: center; 
+}
+.projects-cards-container{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+gap: 3rem;
+padding-inline: 2rem;
+}
+.project-card-container {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Raised effect */
+    padding: 1.5rem; /* Space inside the container */
+    border-radius: 8px; /* Smooth, rounded corners */
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+.project-card-container:hover {
+    transform: translateY(-10px); /* Slight upward movement */
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
 
 
+.video-sample-card-container{
+height: 20rem;
+background-color: white;
+border: 2px solid white;
+border-radius: 10px;
+margin-bottom: 2rem;
+}
+.video-sample-card-container video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.text-box-project-container{
+
+}
+.describe-project{
+color: white;
+}
+/* End of my projects section */
 /* Start of contact section */
 .contact-section-container{
 margin-top: 2rem;
@@ -392,11 +447,7 @@ margin-top: 2rem;
     background-blend-mode: darken; /* Blends the overlay with the image */
   
 }
-/* @media screen and (max-width:50em){
-    .contact-section-container{
-        height: max-content;
-    }   
-} */
+
 .contact-section-container h1{
 color: white;
 } 

@@ -32,7 +32,7 @@ This is a **personal portfolio website** built to represent my professional prof
 ## 📂 File Structure
 
 ```bash
-personal-portfolio/
+davis-ikou-portfolio-app /
 ├── assets/
 │   ├── images/           # Icons, photos, and visuals
 │   └── documents/        # Resume document
@@ -47,7 +47,7 @@ To run the portfolio locally:
 
 ```bash
 git clone https://github.com/Davis-don/davis-ikou-portfolio-app.git
-cd personal-portfolio
+cd davis-ikou-portfolio-app
 open index.html  # Or simply drag the file into your browser
 
 ```
