@@ -102,6 +102,17 @@ gap: 2rem;
 }
 .left-side-hero-section h1{
 font-size: 10rem;
+
+
+color: white;
+text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds depth and a subtle glow effect */
+font-weight: bold;
+letter-spacing: 1.5px; /* Creates a refined look with subtle spacing */
+padding: 15px; /* Ensures visual balance and spacing around the text */
+background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient for a distinct vibe */
+-webkit-background-clip: text; /* Clips background to the text for Chrome and Safari */
+background-clip: text; /* Standard property for modern browsers */
+-webkit-text-fill-color: transparent; /* Makes the text transparent for gradient visibility */
 }
 @media screen and (max-width:38.75em) {
     .left-side-hero-section h1{
@@ -183,7 +194,7 @@ gap: 2rem;
     color: white;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7); /* Adds depth and a subtle glow effect */
     font-weight: bold;
-    font-size: 2.5rem; /* Makes the text prominent */
+    font-size:3rem; /* Makes the text prominent */
     letter-spacing: 1.5px; /* Creates a refined look with subtle spacing */
     padding: 15px; /* Ensures visual balance and spacing around the text */
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Warm gradient for a distinct vibe */
@@ -202,8 +213,8 @@ line-height: 3rem;
 
 }
 .educational-background h3{
-    color: rgb(74, 52, 9);
-    font-size: 3rem;
+    color: #ff7e5f;
+    font-size: 2rem;
 }
 .educational-background ul{
 list-style: none;
@@ -222,8 +233,8 @@ height: 3rem;
 }
 
 .interests h3{
-    color: rgb(74, 52, 9);
-    font-size: 3rem;
+    color: #ff7e5f;
+    font-size: 2rem;
 }
 .interests ul li{
     display: flex;
@@ -300,7 +311,7 @@ background-color: white;
 .colored-graphic-display{
 height: 100%;
 
-background-color: orangered;
+background-color: #ff7e5f;
 border-radius: 2rem;
 }
 /* End of my skills section */
