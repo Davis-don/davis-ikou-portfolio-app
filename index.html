@@ -9,7 +9,7 @@
 <body>
    <div class="overall-container">
     <!-- Start of header -->
-    <header class="header-container">
+    <header id="home" class="header-container">
         <div class="menu-icon-display">
             <img src="./assets/images/menu.png" alt="">
         </div>
@@ -18,17 +18,18 @@
         </div>
         <div class="right-side-header-container">
      <ul>
-        <li>About</li>
-        <li>Education</li>
-        <li>Interests</li>
-        <li>Skills</li>
-        <li>Contact</li>
+        <li>
+            <a href="#about">About</a></li>
+        <li ><a href="#skills">Skills</a></li>
+        <li> <a href="#contact">Contact</a></li>
      </ul>
         </div>
        
     </header>
     <!-- End of header -->
 
+
+   <div class="content-section">
     <!-- Start of hero -->
     <div class="hero-section-container">
 
@@ -52,7 +53,7 @@
 
 
     <!-- Start of about -->
-     <div class="overall-about-section">
+     <div id="about" class="overall-about-section">
         <div class="left-side-about-section">
             <img src="./assets/images/image-of-me.jpg" alt="black-and-white">
         </div>
@@ -94,7 +95,7 @@
      <!-- End of about -->
 
      <!-- Start of my skills section -->
-<div class="my-skills-section">
+<div id="skills" class="my-skills-section">
     <h1>My Skills</h1>
     <div class="skills-container">
     <div class="overall-skill-card">
@@ -255,7 +256,7 @@
 
 
      <!-- Start of contact section -->
-      <div class="contact-section-container">
+      <div id="contact" class="contact-section-container">
         <h1>Get in Touch</h1>
         <div class="contact-cards-holder">
             <div class="left-side-contact-section">
@@ -354,6 +355,8 @@
         </div>
       </div>
       <!-- End of footer section -->
+
+    </div>
    </div> 
 </body>
 </html>
